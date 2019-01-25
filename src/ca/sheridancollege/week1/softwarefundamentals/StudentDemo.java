@@ -13,6 +13,9 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private String program;
+  private String a;
+  //nnn
   
   /**
    * A constructor to pass in the given ID and then name
@@ -49,6 +52,16 @@ public class StudentDemo
     public String getName() {
         return name;
     }
+
+    public String getProgram() {
+        return program;
+    }
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
+    
+    
 
     /**
      * A method to set the student's name
