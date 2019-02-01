@@ -14,22 +14,22 @@ public class StudentArray
 {
     public static void main(String[] args)
     {
-        StudentDemo [] studentList = new StudentDemo[7];
+        Student[] studentList = new Student[7];
         
         
-        StudentDemo student1 = new StudentDemo("1", "Jim Halpern");
+        Student student1 = new Student("1", "Jim Halpern");
         studentList[0] = student1;
-        studentList[1] = new StudentDemo("2", "Michael Scott");
-        studentList[2] = new StudentDemo("3", "Pam Beasley");
-        studentList[3] = new StudentDemo("4", "Dwight Schrute");
-        studentList[4] = new StudentDemo("5", "Toby Flendersen");
-        studentList[5] = new StudentDemo("6", "Bobby Fletcher");
-        studentList[6] = new StudentDemo("7", "Spoonie Loone");
+        studentList[1] = new Student("2", "Michael Scott");
+        studentList[2] = new Student("3", "Pam Beasley");
+        studentList[3] = new Student("4", "Dwight Schrute");
+        studentList[4] = new Student("5", "Toby Flendersen");
+        studentList[5] = new Student("6", "Bobby Fletcher");
+        studentList[6] = new Student("7", "Spoonie Loone");
         
         
         
-        for (StudentDemo studentList1 : studentList) {
-            System.out.println(studentList1.getName());
+        for (Student a : studentList) {
+            System.out.println(a.getName());
         }
     }
     
