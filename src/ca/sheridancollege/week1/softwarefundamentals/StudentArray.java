@@ -24,9 +24,8 @@ public class StudentArray
         studentList[5] = new StudentDemo("6", "Bobby Fletcher");
         
         
-        for(int i=0; i<studentList.length; i++)
-        {
-            System.out.println(studentList[i].getName());
+        for (StudentDemo studentList1 : studentList) {
+            System.out.println(studentList1.getName());
         }
     }
     
