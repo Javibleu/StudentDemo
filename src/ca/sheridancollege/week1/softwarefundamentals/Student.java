@@ -6,7 +6,7 @@ public class Student {
   private String studentID;
   private String name;
   private String program;
-  private String a;
+  private String course;
 
   public Student(String givenID, String givenName)
   {
