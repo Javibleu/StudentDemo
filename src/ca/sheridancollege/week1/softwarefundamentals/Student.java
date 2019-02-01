@@ -8,6 +8,7 @@ public class Student {
   private String program;
   private String course;
   private String Demo;
+  private String Karam;
 
   public Student(String givenID, String givenName)
   {
