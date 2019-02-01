@@ -19,12 +19,12 @@ public class StudentArray
         
         Student student1 = new Student("1", "Jim Halpern");
         studentList[0] = student1;
-        studentList[1] = new Student("2", "Michael Scott");
+        studentList[1] = new Student("2", "Michael Landon");
         studentList[2] = new Student("3", "Pam Beasley");
         studentList[3] = new Student("4", "Dwight Schrute");
         studentList[4] = new Student("5", "Toby Flendersen");
         studentList[5] = new Student("6", "Bobby Fletcher");
-        studentList[6] = new Student("7", "Spoonie Loone");
+        studentList[6] = new Student("7", "Spoonie Loonie");
         
         
         
