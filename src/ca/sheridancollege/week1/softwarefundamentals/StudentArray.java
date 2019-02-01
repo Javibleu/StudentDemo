@@ -14,7 +14,7 @@ public class StudentArray
 {
     public static void main(String[] args)
     {
-        Student[] studentList = new Student[7];
+        Student[] studentList = new Student[8];
         
         
         Student student1 = new Student("1", "Jim Halpern");
@@ -25,7 +25,7 @@ public class StudentArray
         studentList[4] = new Student("5", "Toby Flendersen");
         studentList[5] = new Student("6", "Bobby Fletcher");
         studentList[6] = new Student("7", "Spoonie Loonie");
-        
+        studentList[7] = new Student("7", "Javier Nievas");
         
         
         for (Student a : studentList) {
